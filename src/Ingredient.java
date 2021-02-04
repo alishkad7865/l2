@@ -2,22 +2,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Ingredient {
-    Map<String, Double> ingredient = new HashMap<>();
+    public Map<String, Double> ingredient = new HashMap<>();
     Ingredient(){
     ingredient.put("Bun", 0.50);
     ingredient.put("Ciabatta", 0.70);
     ingredient.put("English Muffin", 0.70); 
     ingredient.put("Patty",1.00);
     ingredient.put("Feta",0.25);  
-    ingredient.put("cheddar", 0.20); 
+    ingredient.put("Cheddar", 0.20); 
     ingredient.put("Mozzarella",0.20);
-    ingredient.put("Cheese Curd",2.00);
+    ingredient.put("Cheese Curds",2.00);
     ingredient.put("Egg",0.20);
     ingredient.put("Mayo",0.05);
     ingredient.put("Mustard",0.03);
-    ingredient.put("Sour cream",0.03);
+    ingredient.put("Sour Cream",0.03);
     ingredient.put("Sriracha",0.03);
-    ingredient.put("Argulu",0.25);
+    ingredient.put("Arugula",0.25);
     ingredient.put("Black Garlic",0.25);
     ingredient.put("Chives",0.05);
     ingredient.put("Iceburg",0.12);
